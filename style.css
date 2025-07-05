@@ -1,0 +1,81 @@
+body{
+     background-color: #333333;
+}
+
+h1{
+   color: #DC99F3;
+
+}
+
+.box{
+    width: 800px;
+    height: 289px;
+    border: 10px solid #DC99F3;
+    border-radius: 20px;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 35px;
+    box-sizing: border-box;
+    margin-bottom: 190px;
+}
+
+.child{
+    width: 96px;
+    height: 167px;
+    background-color: #DC99F3;
+    border-radius: 30px;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-end;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 190px;
+}
+
+.box3{
+     display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 190px;
+}
+
+.box4{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;   
+    margin-bottom: 190px;
+}
+
+.box5{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-around;   
+    margin-bottom: 190px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.box6{
+     display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-evenly;   
+    margin-bottom: 190px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
